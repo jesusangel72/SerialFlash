@@ -432,7 +432,7 @@ const char * id2chip(const unsigned char *id)
 			if (id[2] == 0x41) return "SST25VF016B";
 			if (id[2] == 0x4A) return "SST25VF032";
 		}
-		if (id[1] == 0x25) {
+		if (id[1] == 0x26) {
 			if (id[2] == 0x01) return "SST26VF016";
 			if (id[2] == 0x02) return "SST26VF032";
 			if (id[2] == 0x43) return "SST26VF064";
